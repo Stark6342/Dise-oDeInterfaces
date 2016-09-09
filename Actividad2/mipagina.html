@@ -2,91 +2,98 @@
 <html>
 <head><!-- -->
 <title>Mi Pagina</title><!-- esto agrega el titulo a la pagina -->
-<link rel="stylesheet" type="text/css" href="estilo.css"/>
+<link rel="import" href="Import.html">
 </head>
 <body><!-- esto es el cuerpo que se mostrara -->
-<div class="barnav">
-	<ul>
-		<li><a href="mipagina.html">Perfil</a></li>
-		<li><a href="hobbit.html">Hobbit</a></li>
-		<li><a href="contacto.html">Contacto</a></li>
-	</ul>
-</div>
-<div class="demas">
-	<div class="bo">
-		<h1><i>Mi curriculum</i></h1>	
+<nav>
+    <div class="nav-wrapper red">
+    	<ul>
+      		<li><a href="mipagina.html">Home</a></li>
+      		<li><a href="hobbit.html">Hobbit</a></li>
+      		<li><a href="contacto.html">Contacto</a></li>
+      	</ul>
+    </div>
+</nav>
+<div>
+	<div>
+		<h1 class="center "><i>Curriculum</i></h1>	
 	</div>
 	<hr>
-	<div>
-		<div class="ima">
+	<div class="center">
+		<div>
 			<img src="perfil.jpg" width="200" height="200">		
 		</div>
-		<div class="texima">
-			<h2>Nombre:</h2>
+		<div>
+			<h5>Nombre:</h5>
 			<p>Jose Arael Betancourt Flores</p>
-			<h2>Direccion:</h2>
+			<h5>Direccion:</h5>
 			<p>Brasil #119 Colonia libertad, Ciudad Victoria, Tamaulipas</p>
-			<h2>Telefono Casa:</h2>
+			<h5>Telefono Casa:</h5>
 			<p>(834)-313-1277</p>
+			<h5>Telefono Celular:</h5>
+			<p>(834)-217-5664</p>
+			<h5>Email:</h5>
+			<p><a href="mailto:arael.betancourt@gmail.com">arael.betancourt@gmail.com</a></p>
 		</div>
 	</div>
-	<div>	
-		<h2>Telefono Celular:</h2>
-		<p>(834)-217-5664</p>
-		<h2>Email:</h2>
-		<p><a href="mailto:arael.betancourt@gmail.com">arael.betancourt@gmail.com</a></p>
-	</div>
+	<hr><br>
 	<div>
-		<h2>Experiencia personal</h2>
-		<table border="0" width="1000">
-			<tr>
+		<h5 class="center">Experiencia personal</h5>
+		<table>
+			<thead>
 				<th>Institucion</th>
 				<th>Tiempo</th>
 				<th>Puesto</th>
 				<th>Actividades</th>
-			</tr>
-			<tr>
-				<td>Escuela Secundaria Tecnica #54</td>
-				<td>Agosto 2013 - Diciembre 2013</td>
-				<td>Prestador Servicio Social</td>
-				<td>- area de mantenimiento de equipos de computo<br>
-				- area de centro de computo<br>
-				- area de comunicacion</td>
-			</tr>
-			<tr>
-				<td>Presidencia Municipal de Ciudad Victoria</td>
-				<td>Enero 2014 - Junio 2014</td>
-				<td>Prestador Practica Pofecionales</td>
-				<td>mantenimiento y reparacion de equipos de computo<br>
-				diseño y elaboracion de folletos<br>
-				Organizacion de documentos </td>
-			</tr>
-			<tr>
-				<td>Inifed</td>
-				<td>Junio 2014 - julio 2014</td>
-				<td>Capturista</td>
-				<td>Capturista de datos en sistema</td>
-			</tr>
-			<tr>
-				<td>Pri Tamaulipas</td>
-				<td>Junio 2014 - julio 2015</td>
-				<td>Capturista</td>
-				<td>Capturista de datos en sistema</td>
-			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Escuela Secundaria Tecnica #54</td>
+					<td>Agosto 2013 - Diciembre 2013</td>
+					<td>Prestador Servicio Social</td>
+					<td>- area de mantenimiento de equipos de computo<br>
+					- area de centro de computo<br>
+					- area de comunicacion</td>
+				</tr>
+				<tr>
+					<td>Presidencia Municipal de Ciudad Victoria</td>
+					<td>Enero 2014 - Junio 2014</td>
+					<td>Prestador Practica Pofecionales</td>
+					<td>mantenimiento y reparacion de equipos de computo<br>
+					diseño y elaboracion de folletos<br>
+					Organizacion de documentos </td>
+				</tr>
+				<tr>
+					<td>Inifed</td>
+					<td>Junio 2014 - julio 2014</td>
+					<td>Capturista</td>
+					<td>Capturista de datos en sistema</td>
+				</tr>
+				<tr>
+					<td>Pri Tamaulipas</td>
+					<td>Junio 2014 - julio 2015</td>
+					<td>Capturista</td>
+					<td>Capturista de datos en sistema</td>
+				</tr>
+			</tbody>
 		</table>
-		<h2>Preparacion Academica</h2>
-		<table border="0" width="1000">
-			<tr>
+		<hr><br>
+		<h5 class="center">Preparacion Academica</h5>
+		<table>
+			<thead>
 				<th>Institucion</th>
 				<th>Titulo</th>
 				<th>Tiempo</th>
-			</tr>
-			<tr>
-				<td>CBTis 236</td>
-				<td>Tecnico en Informatica</td>
-				<td>Agosto 2011 - Junio 2014</td>
-			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>CBTis 236</td>
+					<td>Tecnico en Informatica</td>
+					<td>Agosto 2011 - Junio 2014</td>
+				</tr>
+			</tbody>
 		</table>
+		<hr><br>
 	</div>
 </div>
 </body>
