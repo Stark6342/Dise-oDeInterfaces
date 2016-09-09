@@ -1,0 +1,39 @@
+
+	.barnav{
+		background-color: gray; /* dale color a el bacjground de la barra lateral */
+		/*text-decoration-color: red; /* da el color de las letras */
+		position: absolute;  /* define el tipo de posicion */
+		left: 0; /* donde inicia */
+		top: 0; /* donde inicia */
+		width: 10%; /* cual es el ancho de la barra */
+		height: 100%; /* da el largo de la barra */
+		border-radius: 15px; /* redondea los bordes */
+		text-shadow: 20;
+	}
+	.demas{
+		left: 11%; /* donde inicia en este caso iniciamos en el 11% */
+		position: absolute; /* define la pocicion para que nos e mueva */
+		width: 88%; /* el tamaño que queda el 89% le quite 1% por cuestiones de estetica y que se viera la divicion*/
+		/*text-align: center;*/
+	}
+	.bo{
+		text-align: center;
+		width: 90%;
+	}
+	.ima{
+		position: absolute;
+	}
+	.texima{
+		position: relative;
+		top: 15%; /* desde donde iniciara */
+		left: 20%; /* desde donde iniciara */
+		width: 80%; /* cuanto del porsentaje usara */
+	}
+	body{
+		background: white; /* Color del fondo  */
+	}
+	h1{
+		text-align: center; /* alineacion del texto */
+		color: red; /* color de texto */
+	}
+
